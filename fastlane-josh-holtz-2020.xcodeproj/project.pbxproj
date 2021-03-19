@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0BE5568260441D600843075 /* fastlane_josh_holtz_2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE5555260441D400843075 /* fastlane_josh_holtz_2020App.swift */; };
+		D0BE5569260441D600843075 /* fastlane_josh_holtz_2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE5555260441D400843075 /* fastlane_josh_holtz_2020App.swift */; };
+		D0BE556A260441D600843075 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE5556260441D400843075 /* ContentView.swift */; };
+		D0BE556B260441D600843075 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE5556260441D400843075 /* ContentView.swift */; };
+		D0BE556C260441D600843075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BE5557260441D600843075 /* Assets.xcassets */; };
+		D0BE556D260441D600843075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BE5557260441D600843075 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0BE5555260441D400843075 /* fastlane_josh_holtz_2020App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastlane_josh_holtz_2020App.swift; sourceTree = "<group>"; };
+		D0BE5556260441D400843075 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0BE5557260441D600843075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0BE555C260441D600843075 /* fastlane-josh-holtz-2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fastlane-josh-holtz-2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BE555F260441D600843075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BE5564260441D600843075 /* fastlane-josh-holtz-2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fastlane-josh-holtz-2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BE5566260441D600843075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0BE5567260441D600843075 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0BE5559260441D600843075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BE5561260441D600843075 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0BE554F260441D400843075 = {
+			isa = PBXGroup;
+			children = (
+				D0BE5554260441D400843075 /* Shared */,
+				D0BE555E260441D600843075 /* iOS */,
+				D0BE5565260441D600843075 /* macOS */,
+				D0BE555D260441D600843075 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0BE5554260441D400843075 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D0BE5555260441D400843075 /* fastlane_josh_holtz_2020App.swift */,
+				D0BE5556260441D400843075 /* ContentView.swift */,
+				D0BE5557260441D600843075 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D0BE555D260441D600843075 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0BE555C260441D600843075 /* fastlane-josh-holtz-2020.app */,
+				D0BE5564260441D600843075 /* fastlane-josh-holtz-2020.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0BE555E260441D600843075 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D0BE555F260441D600843075 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		D0BE5565260441D600843075 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D0BE5566260441D600843075 /* Info.plist */,
+				D0BE5567260441D600843075 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0BE555B260441D600843075 /* fastlane-josh-holtz-2020 (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BE5570260441D600843075 /* Build configuration list for PBXNativeTarget "fastlane-josh-holtz-2020 (iOS)" */;
+			buildPhases = (
+				D0BE5558260441D600843075 /* Sources */,
+				D0BE5559260441D600843075 /* Frameworks */,
+				D0BE555A260441D600843075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fastlane-josh-holtz-2020 (iOS)";
+			productName = "fastlane-josh-holtz-2020 (iOS)";
+			productReference = D0BE555C260441D600843075 /* fastlane-josh-holtz-2020.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0BE5563260441D600843075 /* fastlane-josh-holtz-2020 (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BE5573260441D600843075 /* Build configuration list for PBXNativeTarget "fastlane-josh-holtz-2020 (macOS)" */;
+			buildPhases = (
+				D0BE5560260441D600843075 /* Sources */,
+				D0BE5561260441D600843075 /* Frameworks */,
+				D0BE5562260441D600843075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fastlane-josh-holtz-2020 (macOS)";
+			productName = "fastlane-josh-holtz-2020 (macOS)";
+			productReference = D0BE5564260441D600843075 /* fastlane-josh-holtz-2020.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0BE5550260441D400843075 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D0BE555B260441D600843075 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D0BE5563260441D600843075 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D0BE5553260441D400843075 /* Build configuration list for PBXProject "fastlane-josh-holtz-2020" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0BE554F260441D400843075;
+			productRefGroup = D0BE555D260441D600843075 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0BE555B260441D600843075 /* fastlane-josh-holtz-2020 (iOS) */,
+				D0BE5563260441D600843075 /* fastlane-josh-holtz-2020 (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0BE555A260441D600843075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BE556C260441D600843075 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BE5562260441D600843075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BE556D260441D600843075 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0BE5558260441D600843075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BE556A260441D600843075 /* ContentView.swift in Sources */,
+				D0BE5568260441D600843075 /* fastlane_josh_holtz_2020App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BE5560260441D600843075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BE556B260441D600843075 /* ContentView.swift in Sources */,
+				D0BE5569260441D600843075 /* fastlane_josh_holtz_2020App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D0BE556E260441D600843075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0BE556F260441D600843075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D0BE5571260441D600843075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexander-zou.fastlane-josh-holtz-2020";
+				PRODUCT_NAME = "fastlane-josh-holtz-2020";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0BE5572260441D600843075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexander-zou.fastlane-josh-holtz-2020";
+				PRODUCT_NAME = "fastlane-josh-holtz-2020";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0BE5574260441D600843075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexander-zou.fastlane-josh-holtz-2020";
+				PRODUCT_NAME = "fastlane-josh-holtz-2020";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D0BE5575260441D600843075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexander-zou.fastlane-josh-holtz-2020";
+				PRODUCT_NAME = "fastlane-josh-holtz-2020";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0BE5553260441D400843075 /* Build configuration list for PBXProject "fastlane-josh-holtz-2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BE556E260441D600843075 /* Debug */,
+				D0BE556F260441D600843075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BE5570260441D600843075 /* Build configuration list for PBXNativeTarget "fastlane-josh-holtz-2020 (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BE5571260441D600843075 /* Debug */,
+				D0BE5572260441D600843075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BE5573260441D600843075 /* Build configuration list for PBXNativeTarget "fastlane-josh-holtz-2020 (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BE5574260441D600843075 /* Debug */,
+				D0BE5575260441D600843075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0BE5550260441D400843075 /* Project object */;
+}
